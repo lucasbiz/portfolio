@@ -1,3 +1,6 @@
+// TEMA GERAL:
+estou pensando em algo retro de tema escuro com neons, acho q vai ficar legal, mas ao mesmo tempo simples, que apenas passe a ideia
+
 //HEADER
 
 fazer um botão de tema claro e escuro no header
