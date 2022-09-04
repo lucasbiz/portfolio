@@ -9,6 +9,7 @@ animação de movimento no nome que está com o id movimentacao (tipo flutuando 
 historia: ok
 
 conhecimento: algo que seja prático e facilite a leitura de quem estiver vendo, mas que também mostre meu conhecimento em deixar as animações legais (animaições rápidas e bem feitas)
+botoes grandes com os símbolos das tecnologias que já fiz cursos e sei um pouco, quando clicamos no botao ele abre um texto em baixo explicando o que ja fiz e qual meu conhecimento na área, como um menu hambúrguer de techs. 
 
 projetos: grade com thumbs dos projetos que ja fiz, começando do melhor pro pior
 
