@@ -1,0 +1,20 @@
+//HEADER
+
+fazer um botão de tema claro e escuro no header
+
+animação de movimento no nome que está com o id movimentacao (tipo flutuando pra cima e para baixo?)
+
+// SECTIONS
+
+historia: ok
+
+conhecimento: algo que seja prático e facilite a leitura de quem estiver vendo, mas que também mostre meu conhecimento em deixar as animações legais (animaições rápidas e bem feitas)
+
+projetos: grade com thumbs dos projetos que ja fiz, começando do melhor pro pior
+
+contato: um card principal com meu e-mail e telefone e alguns botoes com redes sociais, linkedin, instagram e whatsapp (botao de iniciar conversa e número para todo mundo poder entrar em contato)
+
+
+
+
+
