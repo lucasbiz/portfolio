@@ -1,5 +1,6 @@
 const men = document.getElementById('nav')
-const opaco = document.getElementById('main')
+const anim = document.getElementById('animation')
+
 
 function menu(){
     if (men.style.display == 'none') {
@@ -10,4 +11,8 @@ function menu(){
 
 
     }
+}
+
+function fontchange(){
+    
 }

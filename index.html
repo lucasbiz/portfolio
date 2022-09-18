@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="glitch.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 </head>
-<body>
+<body onload="fontchange()">
     <header>
-        <div role="button" onclick="menu()"><span class="material-symbols-outlined">
+        <div role="button" onclick="menu()"><span class="material-symbols-outlined" id="animation">
             menu
             </span></div>
         <nav id="nav">
@@ -23,11 +24,13 @@
         </nav>
     </header>
     <main id="main">
+  </div>
         <section id="home">
-            <h1>Olá, meu nome é <span id="movimentacao">Lucas Biz Teixeira</span> e sou Desenvolverdor Front-End!</h1>
-            <p><a href="https://www.linkedin.com/in/lucas-biz-teixeira/" target="_blank">Linkedin</a>
+            <h1>Olá, meu nome é <br>
+                <div class="hero glitch layers" data-text="Lucas Biz Teixeira" id="glitch"><span>Lucas Biz Teixeira</span></div><br> e sou Desenvolverdor Front-End!</h1>
+            <p><a href="https://www.linkedin.com/in/lucas-biz-teixeira/" target="_blank" class="rgb">Linked-in</a>
             </p>
-            <p><a href="https://github.com/lucasbiz" target="_blank" rel="external">Github</a></p>
+            <p><a href="https://github.com/lucasbiz" target="_blank" rel="external" class="rgb">Github</a></p>
         </section>
 
         <section id="historia">
