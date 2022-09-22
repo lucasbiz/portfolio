@@ -167,6 +167,8 @@ div#office img{
 .buttons:hover{
     transition: .5s;
     box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.459);
+    transform: translate(1px, -1px);
+
 }
 
 p#txthtml{
@@ -196,9 +198,63 @@ div#mosaico {
 
 div#mosaico div{
     background-color: black;
-    border: 1px solid rgb(0, 165, 177);
-    margin: 5px;
+    border: 5px solid rgb(1, 171, 184);
+    margin: 10px;
+    border-radius: 5px;
+    transition: .5s;
+    height: 343px;
 }
+
+div#mosaico div:hover{
+    transform: translate(1px, -1px);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.459);
+    transition: .5s;
+
+}
+
+div#mosaico img {
+    width: 200px;
+
+}
+
+p#proj{
+    margin-top: 50px;
+}
+
+
+section#contato{
+    border: 2px solid rgb(1, 171, 184);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 5px;
+}
+
+section#contato p {
+    margin-top: 15px;
+}
+
+section#contato img {
+    width: 50px;
+    transition: .5s;
+}
+
+
+div#redes{
+    display: flex;
+    justify-content: center;
+}
+
+div#redes a {
+    margin: 10px;
+}
+
+div#redes img:hover {
+    transform: translate(1px, -1px);
+    transition: .5s;
+}
+
+
+
 
 
 
