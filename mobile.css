@@ -130,4 +130,75 @@ section#historia img {
 }
 
 
+div#html img{
+    width: 70px;
+}
+
+div#css img{
+    width: 70px;
+}
+
+div#js img{
+    width: 70px;
+}
+
+div#react img{
+    width: 70px;
+}
+
+div#office img{
+    width: 100px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(17, 62, 75);
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 30px 0px;
+    padding: 10px;
+    border: 1px solid rgb(0, 165, 177);
+    transition: .5s;
+    height: 80px;
+}
+
+.buttons:hover{
+    transition: .5s;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.459);
+}
+
+p#txthtml{
+    display: none;
+}
+p#txtcss{
+    display: none;
+}
+p#txtjs{
+    display: none;
+}
+
+p#txtreact{
+    display: none;
+}
+
+p#txtoffice{
+    display: none;
+}
+
+div#mosaico {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div#mosaico div{
+    background-color: black;
+    border: 1px solid rgb(0, 165, 177);
+    margin: 5px;
+}
+
+
 

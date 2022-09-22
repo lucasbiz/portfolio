@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 </head>
-<body onload="fontchange()">
+<body>
     <header>
         <div role="button" onclick="menu()"><span class="material-symbols-outlined" id="animation">
             menu
@@ -32,7 +32,6 @@
             </p>
             <p><a href="https://github.com/lucasbiz" target="_blank" rel="external" class="rgb">Github</a></p>
         </section>
-
         <section id="historia">
             <h2>Minha história</h2>
             <img src="images/selfe-r.jpg" alt="Selfie de Lucas">
@@ -44,24 +43,42 @@
             <h2>Conhecimento</h2>
             <p>Atualmente sou estudante do primeiro semestre do curso de Sistemas de Informação na Universidade Federal de Santa Catarina. Além disso, fiz/faço cursos extra-curriculares para aprender desenvolvimento web dentre outras habilidades, aqui estão algumas delas:</p>
 
-            <p>HTML5 - Atualmente possuo um conhecimento básico de HTML5, aprendido quase que inteiramente durante as aulas disponibilizadas pela plataforma Curso Em Vídeo, a qual tenho muito a agradecer. Atualmente me encontro no módulo 4 de 5, totalizando quase 160 horas de curso. iniciante -  cursoemvideo </p>
+            <div>
+                <div id="html" class="buttons" role="button" onclick="showhtml()"><img src="images/html-sybol.png" alt="Símbolo da HTML5"></div>
+                <p id="txthtml">Atualmente possuo um conhecimento básico de HTML5, aprendido quase que inteiramente durante as aulas disponibilizadas pela plataforma Curso Em Vídeo, a qual tenho muito a agradecer. Atualmente me encontro no módulo 4 de 5, totalizando quase 160 horas de curso.</p>
+            </div>
 
-            <p>CSS3 - Juntamente ao curso de HTML venho aprendendo também CSS3 para possibilitar uma melhor estilização e profissionalização das minhas páginas criadas - iniciante - cursoemvideo</p> 
+            <div>
+                <div id="css" class="buttons" role="button" onclick="showcss()"><img src="images/css-symbol.png" alt="Símbolo das CSS3"></div>
+                <p id="txtcss">Juntamente ao curso de HTML venho aprendendo também CSS3 para possibilitar uma melhor estilização e profissionalização das minhas páginas criadas.</p> 
+            </div>
 
-            <p>JavaScript - Após iniciar o curso de HTML5 e CSS3, vi que seria indispensável posteriormente o aprendizado da linguagem JavaScript, então passei também a frequentar o curso de JavaScript do Curso Em Vídeo, finalizando-o em Agosto de 2022 com um total de 40 horas. - iniciante - cursoemvideo</p> 
+            <div>
+                <div id="js" class="buttons" role="button" onclick="showjs()"><img src="images/js-symbol.png" alt="Símbolo da linguagem JavaScript"></div>
+                <p id="txtjs">Após iniciar o curso de HTML5 e CSS3, vi que seria indispensável posteriormente o aprendizado da linguagem JavaScript, então passei também a frequentar o curso de JavaScript do Curso Em Vídeo, finalizando-o em Agosto de 2022 com um total de 40 horas.</p> 
+            </div>
 
-            <p>Pacote Office (Excel, Word e PowerPoint) - Durante minha jornada pela faculdade e estágios anteriores pude adquirir um conhecimento avançado do pacote office, com destaque para o Power Point e Excel. - udemy e conhecimentos anteriores</p>
+            <div>
+                <div id="react" class="buttons" role="button" onclick="showreact()"><img src="images/react-symbol.png" alt="Símbolo da Biblioteca ReactJS"></div>
+                <p id="txtreact">Buscando conhecimento...</p> 
+            </div>
+
+            <div>
+                <div id="office" class="buttons" role="button" onclick="showoffice()"><img src="images/moffice.png" alt="Símbolo do Microsoft Office"></div>
+                <p id="txtoffice">Durante minha jornada pela faculdade e estágios anteriores pude adquirir um conhecimento avançado do pacote office, com destaque para o Excel e Power Point.</p>
+            </div>
         </section>
 
         <section id="projetos">
             <h2>Projetos</h2>
             <p>Atualmente possuo alguns projetos hospedados que foram codados totalmente por mim, em sua maioria seguindo aulas ou desafios propostos. Todos os projetos a seguir são responsivos, se adaptando a telas grandes e a dispositivos móveis. </p>
-            <div>Desafio Mundo Invertido</div>
-            <div>Projeto horas do dia</div>
-            <div>Projeto analisador de números</div>
-            <div>Projeto Login</div>
-            <div>Projeto Cordel</div>
-            <div>Projeto Android</div>
+            <div id="mosaico">
+                <div><img src="" alt="Desafio Mundo Invertido"> </div>
+                <div><img src="" alt="Projeto horas do dia"> </div>
+                <div><img src="" alt="Projeto analisador de números"> </div>
+                <div><img src="" alt="Projeto Cordel"></div>
+                <div><img src="" alt="Projeto Android"></div>
+            </div>
             
         </section>
 
