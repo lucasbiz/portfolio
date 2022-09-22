@@ -244,6 +244,10 @@ div#redes{
     justify-content: center;
 }
 
+section#contato > h2{
+    margin-top: 10px;
+}
+
 div#redes a {
     margin: 10px;
 }
