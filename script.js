@@ -15,9 +15,6 @@ function menu(){
     }
 }
 
-
-
-
 function showhtml(){
     if (html.style.display == 'none') {
         html.style.display = 'block'  

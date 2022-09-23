@@ -218,15 +218,17 @@ div#mosaico img {
 }
 
 p#proj{
-    margin-top: 50px;
+    margin: 50px 0px;
 }
 
 
 section#contato{
     border: 2px solid rgb(1, 171, 184);
     border-radius: 10px;
-    margin: 20px;
     padding: 5px;
+    max-width: 450px;
+    width: 80vw;
+    margin: auto;
 }
 
 section#contato p {
@@ -238,10 +240,10 @@ section#contato img {
     transition: .5s;
 }
 
-
 div#redes{
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 section#contato > h2{
@@ -257,6 +259,22 @@ div#redes img:hover {
     transition: .5s;
 }
 
+
+/* ANIMACAO RETICENCIAS */
+
+p#txtreact span{
+    animation: pisca 2s infinite;
+    opacity: 1;
+}
+
+@keyframes pisca {
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
 
 
 
