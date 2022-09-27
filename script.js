@@ -54,3 +54,7 @@ function showoffice(){
         office.style.display = 'none'
     }
 }
+
+function easteregg(){
+    alert('Olá! Nesta página existe um Easter Egg, será que você consegue encontrar sem olhar o código fonte? \u{1F440} ')
+}

@@ -107,7 +107,7 @@ section#home{
 }
 
 section{
-    margin-top: 100px;
+    margin-top: 200px;
     padding: 0px 20px;
     text-align: center;
 }
@@ -226,6 +226,7 @@ section#contato{
     max-width: 450px;
     width: 80vw;
     margin: auto;
+    margin-top: 100px;
 }
 
 section#contato p {
@@ -274,6 +275,9 @@ p#txtreact span{
 }
 
 
-
+a#easter{
+    text-decoration: none;
+    color: white;
+}
 
 
