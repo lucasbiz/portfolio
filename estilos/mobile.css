@@ -74,6 +74,19 @@ section#home{
     text-align: center;
     flex-direction: column;
     justify-content: center;
+    margin-top: 0px;
+}
+
+#homebuttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#homebuttons a {
+    width: 100px;
+    margin-top: 20px;
+
 }
 
 
