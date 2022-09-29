@@ -21,6 +21,10 @@ Grandes telas: acima de 1200px
         border-bottom: 1px solid rgba(255, 255, 255, 0.466);
     }
 
+    header > nav {
+        display: none;
+    }
+    
     #menu{
         display: none;
     }
