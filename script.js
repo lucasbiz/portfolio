@@ -5,6 +5,8 @@ const js = document.getElementById('txtjs')
 const react = document.getElementById('txtreact')
 const office = document.getElementById('txtoffice')
 
+// MOSTRAR MENU E DEMAIS ITENS ESCONDIDOS
+
 const show = (variavel) => {
     if (variavel.style.display == 'none'){
         variavel.style.display = 'block'
@@ -12,6 +14,8 @@ const show = (variavel) => {
         variavel.style.display = 'none'
     }
 }
+
+//EASTER EGG
 
 const easteregg = () =>
     alert('Olá! Nesta página existe um Easter Egg, será que você consegue encontrar sem olhar o código fonte? \u{1F440} ')
