@@ -58,6 +58,10 @@ span.material-symbols-outlined{
 /* MAIN */
 
 
+p{
+    font-size: 17px;
+}
+
 h1, h2 {
     font-family:'Share Tech', sans-serif;
 }
@@ -107,6 +111,8 @@ section#home{
 
 }
 
+
+/*ANIMACAO RGB */   
 @keyframes rotation {
     0% {
         filter: hue-rotate(0deg);
@@ -115,8 +121,11 @@ section#home{
         filter: hue-rotate(360deg);
     }
 }
+/*ANIMACAO RGB */   
 
-section{
+
+
+section {
     margin-top: 200px;
     padding: 0px 20px;
     text-align: center;
@@ -124,8 +133,8 @@ section{
 
 section h2{
     text-align: center;
-    padding-bottom: 20px;
-    text-decoration: underline;
+    padding-bottom: 40px;
+    letter-spacing: 2px;
 }
 
 section#historia img {
@@ -136,20 +145,13 @@ section#historia img {
     margin: auto;
 }
 
-
-div#html img{
-    width: 70px;
+section#conhecimento{
+    max-width: 800px;
+    margin: auto;
+    margin-top: 200px;
 }
 
-div#css img{
-    width: 70px;
-}
-
-div#js img{
-    width: 70px;
-}
-
-div#react img{
+div>div img{
     width: 70px;
 }
 
@@ -161,12 +163,12 @@ div#office img{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(17, 62, 75);
+    background-color: transparent;
     border-radius: 10px;
     cursor: pointer;
     margin: 30px 0px;
     padding: 10px;
-    border: 1px solid rgb(0, 165, 177);
+    border: 1px solid rgb(0, 177, 168);
     transition: .5s;
     height: 80px;
 }
@@ -175,24 +177,9 @@ div#office img{
     transition: .5s;
     box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.459);
     transform: translate(1px, -1px);
-
 }
 
-p#txthtml{
-    display: none;
-}
-p#txtcss{
-    display: none;
-}
-p#txtjs{
-    display: none;
-}
-
-p#txtreact{
-    display: none;
-}
-
-p#txtoffice{
+section#conhecimento div>p{
     display: none;
 }
 
@@ -205,7 +192,7 @@ div#mosaico {
 
 div#mosaico div{
     background-color: black;
-    border: 5px solid rgb(1, 171, 184);
+    border: 5px solid rgb(0, 177, 168);
     margin: 10px;
     border-radius: 5px;
     transition: .5s;
@@ -230,7 +217,7 @@ p#proj{
 
 
 section#contato{
-    border: 2px solid rgb(1, 171, 184);
+    border: 2px solid rgb(0, 177, 168);
     border-radius: 10px;
     padding: 5px;
     max-width: 450px;
@@ -248,14 +235,15 @@ section#contato img {
     transition: .5s;
 }
 
+section#contato > h2{
+    margin-top: 10px;
+    padding-bottom: 0px;
+}
+
 div#redes{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-}
-
-section#contato > h2{
-    margin-top: 10px;
 }
 
 div#redes a {
@@ -269,10 +257,14 @@ div#redes img:hover {
 
 
 /* ANIMACAO RETICENCIAS */
-
 p#txtreact span{
     animation: pisca 2s infinite;
     opacity: 1;
+}
+
+a#easter{
+    text-decoration: none;
+    color: white;
 }
 
 @keyframes pisca {
@@ -283,12 +275,8 @@ p#txtreact span{
         opacity: 0;
     }
 }
+/* ANIMACAO RETICENCIAS */
 
-
-a#easter{
-    text-decoration: none;
-    color: white;
-}
 
 
 footer{
