@@ -13,7 +13,7 @@
 /* BODY */
 
 body{
-    background-image: linear-gradient(to bottom, black, rgb(2, 46, 54));
+    background-image: linear-gradient(to bottom, black, rgb(44, 0, 44));
     background-attachment: fixed;
     color: white;
     box-sizing: border-box;
@@ -25,7 +25,7 @@ body{
 
 header {
     position: fixed;
-    background-color: black;
+    background-color: rgb(17, 11, 17);
     font-family: 'Share Tech', sans-serif;
     width: 100vw;
     z-index: 3;
@@ -290,4 +290,12 @@ a#easter{
     color: white;
 }
 
+
+footer{
+    text-align: center;
+    background-color: black;
+    font-size: 14px;
+    padding: 3px;
+    margin-top: 20px;
+}
 
