@@ -37,6 +37,7 @@ header a {
     display: block;
     text-align: center;
     padding-bottom: 5px;
+    font-size: 18px;
 }
 
 header > div {
@@ -56,9 +57,6 @@ span.material-symbols-outlined{
 
 /* MAIN */
 
-main {
-    padding-top:50px;
-}
 
 h1, h2 {
     font-family:'Share Tech', sans-serif;
@@ -71,7 +69,6 @@ h1 {
 section#home{
     height: 400px;
     display: flex;
-    text-align: center;
     flex-direction: column;
     justify-content: center;
     margin-top: 0px;

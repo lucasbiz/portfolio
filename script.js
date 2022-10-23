@@ -8,10 +8,10 @@ const office = document.getElementById('txtoffice')
 // MOSTRAR MENU E DEMAIS ITENS ESCONDIDOS
 
 const show = (variavel) => {
-    if (variavel.style.display == 'none'){
+    if (variavel.style.display == ''){
         variavel.style.display = 'block'
     } else {
-        variavel.style.display = 'none'
+        variavel.style.display = ''
     }
 }
 
