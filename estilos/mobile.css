@@ -78,10 +78,15 @@ section#home{
     margin-top: 0px;
 }
 
+div#gif{
+    display: none;
+}
+
 #homebuttons {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 #homebuttons a {
@@ -181,6 +186,13 @@ div#office img{
 
 section#conhecimento div>p{
     display: none;
+}
+
+section#projetos{
+
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 200px ;
 }
 
 div#mosaico {

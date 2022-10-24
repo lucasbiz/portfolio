@@ -9,7 +9,120 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
+@media screen and (min-width: 1050px){
+    main{
+        max-width: 1300px;
+        margin: auto;
+    }
+
+    div#gif{
+        display: inline;
+        float: right;
+        margin-top: 250px;
+        margin-right: 50px;
+    }
+
+    div#gif img{
+        width: 400px;
+        border-radius: 20px;
+
+    }
+
+    section#home{
+        height: 100%;
+        max-width: 1300px;
+        display: inline-block;
+        width: max-content;
+        margin-top: 300px;
+
+    }
+    section#home > h1{
+        font-size: 2.3em; 
+        text-align: left;
+    }
+
+    h1{
+        width: max-content;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    #homebuttons{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        
+    }
+
+    #homebuttons a{
+        display: inline-block;
+        flex-direction: row;
+        margin: 30px;
+    }
+
+    section#historia{
+        max-width: 800px;
+        margin: auto;
+        margin-top: 300px;
+    }
+}
+
+
+@media screen and (min-width: 650px) and (max-width: 1050px){
+
+    main{
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    section#home{
+        height: 100%;
+        max-width: 1000px;
+        display: flex;
+        padding-top: 300px;
+    }
+
+    section#home > h1{
+        font-size: 2.3em; 
+        text-align: center;
+    }
+
+
+    h2 {
+        font-size: 2em;
+    }
+
+    #homebuttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        
+    }
+
+    #homebuttons a{
+        display: flex;
+        flex-direction: row;
+        margin: 30px;
+        justify-content: center;
+
+    }
+
+    section#historia{
+        max-width: 800px;
+        margin: auto;
+        margin-top: 300px;
+    }
+
+}
+
+
+
+
 @media screen and (min-width: 800px){
+
     header{
         box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.363);
         letter-spacing: 2px;
@@ -44,47 +157,3 @@ Grandes telas: acima de 1200px
 
 }
 
-@media screen and (min-width: 650px){
-
-    main{
-        max-width: 1000px;
-        margin: auto;
-    }
-
-    section#home{
-        height: 100%;
-        padding: 200px 30px;
-        max-width: 1000px;
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    section#home > h1{
-        font-size: 2.5em; 
-        text-align: left;   
-    }
-
-    h2 {
-        font-size: 2em;
-    }
-
-    #homebuttons{
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        
-    }
-
-    #homebuttons a{
-        display: inline-block;
-        flex-direction: row;
-        margin: 30px;
-    }
-
-    section#historia{
-        max-width: 800px;
-        margin: auto;
-        margin-top: 100px;
-    }
-
-}
