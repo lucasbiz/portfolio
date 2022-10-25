@@ -28,6 +28,7 @@ header {
     font-family: 'Share Tech', sans-serif;
     width: 100vw;
     z-index: 3;
+    padding: 10px 0px;
 }
 
 header a {
@@ -35,8 +36,8 @@ header a {
     text-decoration: none;
     display: block;
     text-align: center;
-    padding-bottom: 5px;
-    font-size: 18px;
+    padding-top: 20px;
+    font-size: 25px;
 }
 
 header > div {
