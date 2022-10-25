@@ -87,6 +87,7 @@ section#home{
     flex-direction: column;
     justify-content: center;
     margin-top: 0px;
+    padding-top: 50px;
 }
 
 div#gif{
