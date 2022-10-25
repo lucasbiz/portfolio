@@ -4,6 +4,7 @@ const css = document.getElementById('txtcss')
 const js = document.getElementById('txtjs')
 const react = document.getElementById('txtreact')
 const office = document.getElementById('txtoffice')
+const fechamenu = document.getElementById('fechamenu')
 
 // MOSTRAR MENU E DEMAIS ITENS ESCONDIDOS
 
@@ -15,10 +16,30 @@ const show = (variavel) => {
     }
 }
 
+
+
+//FECHAR MENU CLICANDO FORA DELE
+
+fechamenu.addEventListener('click', closeMenu)
+function closeMenu(){
+    if(fechamenu.style.display == 'block'){
+        men.style.display = ''
+        fechamenu.style.display = ''
+    }
+}
+
 //EASTER EGG
 
 const easteregg = () =>
     alert('Olá! Nesta página existe um Easter Egg, será que você consegue encontrar sem olhar o código fonte? \u{1F440} ')
+
+
+
+
+
+
+
+
 
 
 //SCROLL SUAVE
@@ -27,6 +48,7 @@ const menuitens = document.querySelectorAll('#nav a[href^="#"')
 
 menuitens.forEach(item => {
     item.addEventListener('click', scrollonclick)
+    item.addEventListener('click', closeMenu)
 })
 
 function scrollonclick(event) {
