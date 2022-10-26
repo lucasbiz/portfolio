@@ -5,6 +5,27 @@ const js = document.getElementById('txtjs')
 const react = document.getElementById('txtreact')
 const office = document.getElementById('txtoffice')
 const fechamenu = document.getElementById('fechamenu')
+const divhtml = document.getElementById('html')
+const divcss = document.getElementById('css')
+const divjs = document.getElementById('js')
+const divreact = document.getElementById('react')
+const divoffice = document.getElementById('office')
+
+//ANIMAÇÃO CONHECIMENTOS    
+
+function transicao (botao, texto){
+    if (botao.classList == 'buttons'){
+        botao.classList.toggle('buttonsActive')
+        texto.classList.toggle('active')
+    } else{
+        botao.classList.remove('buttonsActive')
+        texto.classList.remove('active')
+    }
+}
+
+
+
+
 
 // MOSTRAR MENU E DEMAIS ITENS ESCONDIDOS
 
