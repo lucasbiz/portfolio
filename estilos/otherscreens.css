@@ -18,7 +18,7 @@ Grandes telas: acima de 1200px
     div#gif{
         display: inline;
         float: right;
-        margin-top: 250px;
+        margin-top: 200px;
         margin-right: 50px;
     }
 
@@ -33,7 +33,7 @@ Grandes telas: acima de 1200px
         max-width: 1300px;
         display: inline-block;
         width: max-content;
-        margin-top: 300px;
+        margin-top: 200px;
 
     }
     section#home > h1{
@@ -81,7 +81,7 @@ Grandes telas: acima de 1200px
         height: 100%;
         max-width: 1000px;
         display: flex;
-        padding-top: 300px;
+        padding-top: 200px;
     }
 
     section#home > h1{
